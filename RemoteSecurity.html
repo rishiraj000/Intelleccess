@@ -17,18 +17,6 @@
 		color: #007bff !important;
 	}
 </style>
-<style>
-	.logoimg{
-		width: 50px;
-	}
-	.mainheading{
-		font-size: xx-large;
-		color: #007bff !important;
-		position: absolute;
-		left: 5%;
-		/* top: 15%; */
-	}
-</style>
 <body>
 	<nav class="relative px-4 py-4 flex justify-between items-center bg-black">
 		<a href="index.html" class="text-3xl font-bold leading-none" href="#">
@@ -44,7 +32,7 @@
 			</button>
 		</div>
 		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Home</a></li>
+			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="index.html">Home</a></li>
 			<li class="text-gray-300">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
@@ -70,8 +58,8 @@
 			</li>
 			<li><a class="text-sm text-xl text-gray-400 hover:text-gray-500" href="#">info@inteleccess.com</a></li>
 		</ul>
-		<!-- <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#">Sign In</a> -->
-		<!-- <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Sign up</a> -->
+		<a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#">Sign In</a>
+		<a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Sign up</a>
 	</nav>
 	<div class="navbar-menu relative z-50 hidden">
 		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -92,7 +80,7 @@
 			<div>
 				<ul>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
+						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="index.html">Home</a>
 					</li>
 					<li class="mb-1">
 						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="services.html">Services</a>
@@ -105,14 +93,14 @@
 						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="contactus.html">contact Us</a>
 					</li>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">info@inteleccess.com</a>
+						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="#"> info@inteleccess.com</a>
 					</li>
 				</ul>
 			</div>
 			<div class="mt-auto">
 				<div class="pt-6">
-					<!-- <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a> -->
-					<!-- <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Sign Up</a> -->
+					<a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
+					<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Sign Up</a>
 				</div>
 				<p class="my-4 text-xs text-center text-gray-400">
 					<span>Copyright © 2022</span>
@@ -123,28 +111,27 @@
 
 
     <!-- content Start -->
-	<section class="text-gray-600 body-font overflow-hidden">
-		<div class="container px-5 py-24 mx-auto">
-			<div class="lg:w-4/5 mx-auto flex flex-wrap">
-				<img alt="ecommerce" class="lg:w-1/2 w-full shadow-2xl lg:h-auto h-60 object-cover object-center rounded"
-					src="images/retail.jpeg">
-				<div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-					<h1 class="text-gray-900 text-3xl title-font font-medium mb-1">RETAIL</h1>
-					<p class="text-sm title-font text-gray-700 tracking-widest mt-2">A SAFE SHOPPING EXPERIENCE WITH INTELLIGENT SECURITY</p>
-	
-					<p class="leading-relaxed">Intellecess Global Services provides security services to retail clients, which can include supermarkets, store chains,
-					a shopping centers or shopping malls as well as the property owners of these buildings. The solution is developed
-					according to the needs and the risks of each client and comprises a combination of different services, such as parking
-					surveillance, people counting and visitor handling as well as remote services and lone worker protection after closing
-					times.
-					</p>
-				</div>
-	
-			</div>
-		</div>
-	</section>
-	<!--  -->
-    
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                    src="images/service-2.jpg">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                    <h1 class="text-sm title-font text-3xl text-black-500 tracking-widest">Remote Security</h1>
+                    <h1 class="text-gray-900 text-2xl title-font font-medium mb-1">Intelligent security solutions for a safer world</h1>
+                    <div class="flex mb-4">
+                    </div>
+                    <p class="leading-relaxed">Business intelligence is a value-adding remote service where we extend the use of
+						the Remote Video Solutions (RVS) to provide additional information and intelligence
+						to our clients. The information can also be used for providing additional services
+						such as process and flow optimization, and courtesy services for clients</p>
+                        <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- Content end -->
 
